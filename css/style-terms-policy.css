@@ -1,0 +1,9 @@
+.img-top-policy, .img-top-terms {
+    background-image: url(../img/bg-politics.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    margin-top: 4rem;
+    min-width: 100%;
+    height: 15rem;
+}

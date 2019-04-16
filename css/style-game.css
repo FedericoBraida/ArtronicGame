@@ -1,0 +1,136 @@
+div.img-top-game {
+    background-image: url(../img/img-game.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    margin-top: 4rem;
+    min-width: 100%;
+    height: 29rem;
+}
+h1.car-h1 {
+    font-weight: 900;
+    font-size: 2.7rem;
+    color: #ffffff;
+}
+h2.car-h2 {
+    font-weight: 900;
+    font-size: 2.7rem;
+    color: #ffffff;
+}
+h1.car-h1 > span, h2.car-h2 > span {
+    color: #FF711D;
+}
+.sub-h3 {
+    background-color: #FF711D; 
+    color: #ffffff; 
+    padding: 1.2rem; 
+    font-size: 1.7rem; 
+    font-weight: 900;
+}
+
+
+
+.sec-rush {
+    margin-top: 6rem;
+}
+.cont-main {
+    margin-top: -25rem;
+}
+.img-game-one {
+    background-image: url(../img/img-vengance.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    min-width: 100%;
+    height: 22rem;
+}
+.img-game-two {
+    background-image: url(../img/candy-bg.png); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    min-width: 100%;
+    height: 22rem;
+}
+.img-game-tree {
+    background-image: url(../img/cats-bg.png); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    min-width: 100%;
+    height: 22rem;
+}
+.bg-blacklines {
+    background-color: #29313A;
+    background-image: url(../img/blacklines_320x320.png);
+    
+}
+.img-kingdoom {
+    background-image: url(../img/kingdom-rush.png); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 28rem;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+.img-candy {
+    background-image: url(../img/candy-crush.png); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 28rem;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+.img-cats {
+    background-image: url(../img/cats-crash.png); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 28rem;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+.img-candy:hover, .img-kingdoom:hover, .img-cats:hover {
+    -webkit-transform:scale(1.03);
+    transform:scale(1.03);
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px 7px #575757;
+}
+.title-bt {
+    font-size: 1.6rem; 
+    font-weight: 900; 
+    color: #ccc; 
+    padding: 1rem;
+}
+.bt-game-play {
+  border-radius: 0!important; 
+  font-size: 1.2rem; 
+  font-weight: 900; 
+  color: #fff; 
+  padding: .5rem 1rem; 
+  margin: 2rem 1rem; 
+  background-color: #6a379f;
+}
+.bt-game-play:hover {
+    background-color: #ffffff;
+    color: #6a379f!important;
+}
+@media (max-width: 767px) {
+    .sec-rush {
+        margin-top: 4rem;
+    }
+    .cont-main {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1500px) {
+    .car-h1, .car-h2 {
+        margin: 0 2rem;
+    }
+}

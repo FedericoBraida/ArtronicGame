@@ -1,0 +1,140 @@
+div.img-top {
+    background-image: url(../img/img-careers.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    margin-top: 5rem;
+    min-width: 100%;
+    height: 29rem;
+}
+h1.car-h1 {
+    font-weight: 900;
+    font-size: 2.9rem;
+    color: #ffffff;
+}
+h2.car-h2 {
+    font-weight: 900;
+    font-size: 1.9rem;
+    color: #FF711D;
+}
+h2.why-h2 {
+    font-weight: 900;
+    font-size: calc(4rem + (1.7285714285714286 - 1) * (100vw - 54.857142857142854rem) / (94.28571428571429 - 54.857142857142854));
+    color: #FF711D;
+}
+p.why-p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #4e555f;
+    padding: 2.5rem;
+}
+.slide-label {
+
+   margin-left: 4rem;
+}
+.slide-label > h5 {
+    color: #4e555f;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.slide-label > p {
+    margin-top: 2rem;
+    color: #4e555f;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.sub-h3 {
+    background-color: #FF711D; 
+    color: #ffffff; 
+    padding: 2rem; 
+    font-size: 2rem; 
+    font-weight: 900;
+    margin-top: -101px;
+}
+.sub-h5 {
+    background-color: #EDEDED; 
+    color: #FF711D; 
+    padding: 1.8rem; 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    margin-top: -8px;
+}
+.content-box {
+    padding: 1.5rem;
+    margin: 1rem;
+    min-height: 20rem;
+    border-radius: 7px; 
+    border: 1px solid #e4e4e4; 
+    background-color: #fff; 
+    box-shadow: 1px 1px 3px #c7c7c6;
+    transition: all .3s ease-in;
+}
+.content-box:hover  {
+    -webkit-transform:scale(1.03);
+    transform:scale(1.03);
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px 7px #c7c7c6;
+}
+
+
+.title-box {
+    font-size: 1.8rem; 
+    color: #4e555f; 
+    font-weight: 900;
+}
+.subtitle-box {
+    color: #c7c7c6; 
+    font-size: 1.2rem; 
+    font-weight: 700;
+}
+.text-p-box {
+    padding: 2rem;
+}
+span.bt-aply {
+    text-decoration: none;
+    border: 2px solid #FF711D;
+    color: #FF711D;
+    border-radius: 2rem; 
+    padding: .5rem 2rem; 
+    font-weight: 700; 
+    background-color: transparent;
+    cursor: pointer;
+}
+span.bt-aply:hover {
+    background-color: #FF711D;
+    color: #ffffff; 
+    transition: all 0.5s ease;
+}
+.h1-modal {
+    color: #FF711D;
+    font-weight: 700;
+}
+.bt-modal {
+    background-color: #FF711D;
+}
+.bt-modal > a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+@media (max-width: 1500px) {
+    .car-h1, .car-h2 {
+        margin: 0 2rem;
+    }
+}
+@media (max-width: 767px) {
+    .slide-label {
+
+        margin: 4rem 0;
+     }
+}
+@media (max-width: 575px) {
+    .sub-h3 {
+        margin-top: 0;
+        
+     }
+     .col-sub {
+         padding: 0;
+     }
+}
