@@ -89,6 +89,20 @@
       style="background-image: url(img/21.jpg); max-width: 100%; min-height: 100vh;  background-position: center; background-repeat: no-repeat; background-attachment: scroll; background-size: cover;">
       <div class="container d-flex flex-column text-center position-relative home-1" style="top: 10rem;">
         <h1>BIENVENIDOS</h1>
+        <!-- BORRAR -->
+        <div style="position: relative;">
+          <input
+            class="button-front"
+            id="file-input"
+            type="file"
+            accept="image/*"
+            capture="environment"
+            hidden />
+              <label style="padding: 10px; background: cornflowerblue; border-radius: 5px; margin-bottom: 20px;" for="file-input">Abrir camara</label>
+           </div>
+          <button style="padding: 10px; background: coral; border-radius: 5px;" onclick="getPermissions()">Ver permisos</button>
+        </div>
+        <!-- BORRAR -->
         <h1>A NUESTRO HOGAR</h1>
         <br>
         <br>
@@ -496,7 +510,17 @@
         });
       });
     });
-
+    // BORRAR
+    function getPermissions() {
+        navigator.permissions.query({ name: "camera" }).then(function (result) {
+          if (result.state == "granted") {
+            console.log("YES");
+          } else if (result.state == "prompt") {
+            console.log("NO");
+          }
+        });
+     }
+    // BORRAR
   </script>
 </body>
 
